@@ -44,6 +44,7 @@ dependencies:
   bloc: ^8.1.4
   get_it:
   equatable:
+  cached_network_image:
 dev_dependencies:
   flutter_test:
     sdk: flutter
