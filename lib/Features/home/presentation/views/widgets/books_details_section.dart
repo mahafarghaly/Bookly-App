@@ -5,7 +5,7 @@ import '../../../../../core/utils/constants.dart';
 import '../../../../../core/utils/styles.dart';
 import 'books_action.dart';
 import 'custom_book_details_appbar.dart';
-import 'custom_book_item.dart';
+import 'custom_book_image.dart';
 
 class BooksDetailsSection extends StatelessWidget {
   const BooksDetailsSection({super.key});
@@ -43,7 +43,7 @@ class BooksDetailsSection extends StatelessWidget {
           height: 18,
         ),
         const BookingRate(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.center, rating: 5, count: 250,
         ),
         const SizedBox(
           height: 37,
