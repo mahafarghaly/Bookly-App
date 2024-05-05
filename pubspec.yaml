@@ -43,7 +43,7 @@ dependencies:
   flutter_bloc: ^8.1.5
   bloc: ^8.1.4
   get_it:
-
+  equatable:
 dev_dependencies:
   flutter_test:
     sdk: flutter
