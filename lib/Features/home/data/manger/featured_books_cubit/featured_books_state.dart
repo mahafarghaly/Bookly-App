@@ -1,6 +1,4 @@
 part of 'featured_books_cubit.dart';
-import '../../models/book_model.dart';
-
 abstract class FeaturedBooksState {
   const FeaturedBooksState();
 
