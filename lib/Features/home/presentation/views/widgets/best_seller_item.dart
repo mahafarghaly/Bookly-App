@@ -38,7 +38,7 @@ class BooksListVewItem extends StatelessWidget {
             //     ),
             //   ),
             // ),
-            CustomBookImage(imageUrl: bookModel.volumeInfo.imageLinks!.thumbnail),
+            CustomBookImage(imageUrl: bookModel.volumeInfo.imageLinks?.thumbnail??""),
             const SizedBox(width: 30,),
             Expanded(
               child: Column(
