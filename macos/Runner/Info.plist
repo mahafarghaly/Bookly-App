@@ -28,5 +28,15 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+
+	<key>LSApplicationQueriesSchemes</key>
+    <array>
+      <string>https</string>
+    </array>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+    <key>NSAllowArbitraryLoads</key>
+    <true/>
+    </dict>
 </dict>
 </plist>
